@@ -1,0 +1,73 @@
+// general
+$primary: #bd3147;
+$secondary: #235b95;
+$tertiary: #235b95;
+$additional-font: #ffffff;
+
+$tile-body-a-color: $secondary;
+$tile-type-block-color: $secondary;
+$tile-type-progress-bar-color: $secondary;
+a.tile-title { color: $secondary !important; }
+
+// footer
+$footer-background-color: #bd3147;
+$footer-title-color: #304145;
+$footer-text-color: #fff;
+$footer-item-disc-color: #fff;
+$footer-social-icon-color: #304145;
+
+// dashboard
+$dashboard-line-color-price: #bd3147; // price left border
+
+$dashboard-banner-chart-legend-label-color: $additional-font;
+$dashboard-stats-item-label-color: $additional-font;
+$dashboard-banner-chart-legend-value-color: #fff; // chart labels
+$dashboard-stats-item-value-color: #fff; // stat values
+
+$dashboard-stats-item-border-color: $secondary; // stat border
+$dashboard-banner-gradient-start: #235b95; // gradient begin
+$dashboard-banner-gradient-end: #235b95; // gradient end
+$dashboard-banner-network-plain-container-background-color: #bd3147; // stats bg
+
+// navigation
+$header-icon-border-color-hover: #304145; // top border on hover
+$header-icon-color-hover: #304145; // nav icon on hover
+
+// buttons
+$btn-line-bg: #fff; // button bg
+$btn-line-color: #235b95; // button border and font color && hover bg color
+$btn-copy-color: #235b95; // btn copy
+$btn-qr-color: #235b95; // btn qr-code
+$btn-address-card-icon-color: #235b95; // btn address color
+$btn-contract-color: #235b95;
+// card
+$card-background-1: #bd3147;
+$card-tab-active: #bd3147;
+
+// ETC theme's idiosyncrasies
+.layout-container {
+    .navbar {
+      box-shadow: 0 0 30px 0 rgba(35, 91, 149, 0.12);
+    }
+
+    .dashboard-banner-container {
+      background-image: linear-gradient(
+        to bottom,
+        $dashboard-banner-gradient-start,
+        $dashboard-banner-gradient-end
+      );
+    }
+
+    .footer-logo {
+      filter: brightness(0) invert(1);
+    }
+}
+
+// Badges
+$badge-neutral-color: #235b95;
+$badge-neutral-background-color: rgba(#235b95, .1);
+
+// Dark theme
+$dark-primary: #bd3147;
+$dark-secondary: #bd3147;
+$dark-primary-alternate: #bd3147;

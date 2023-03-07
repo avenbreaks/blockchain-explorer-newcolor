@@ -1,0 +1,5 @@
+<title>
+  <%= gettext("%{subnetwork} %{network} Explorer", subnetwork: LayoutView.subnetwork_title(), network: LayoutView.network_title()) %>
+</title>
+<meta name="description" content="<%= gettext "Block Explorer provides analytics data, API, and Smart Contract tools for the %{subnetwork}", subnetwork: LayoutView.subnetwork_title() %>">
+<meta name="keywords" content="BlockScout, blockchain, api, analytics, address, smart contract, ethereum, blockchain, bitcoin, cardano, gitshock, gtfx, joy wibowo, cosmos, juno, mintscan, osmosis, etherscan, bscscan, cardanoscan, bitcoinscan, bobanetwork, aurora, solana, solscan, hyperledger scan, ethermint, evmos, evm, evmosd, edgeware, thirdweb, binance, polygon, polygonscan, mumbaiscan, mumbai polygonscan">
